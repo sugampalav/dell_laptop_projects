@@ -1,0 +1,47 @@
+.inventory-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 5%;
+
+
+    .inventory-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        width: calc(33.33% - 12px);
+        height: 100%;
+
+
+        .long-and-truncated {
+            flex: 1;
+
+            &,
+            &>* {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .inventory-wrapper {
+        flex-direction: column;
+
+        .inventory-card {
+            width: 100%;
+        }
+    }
+}

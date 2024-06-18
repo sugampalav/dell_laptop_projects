@@ -1,0 +1,4 @@
+/* 
+Access-Control-Allow-Origin: http://localhost:3000,http://localhost:3000/inventory
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET, OPTIONS

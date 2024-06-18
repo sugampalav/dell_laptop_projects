@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+  align-content: center;
+  font-size: calc(10px + 2vmin);
+  margin: 24% 20% ;
+}
+body {
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+input {
+  border:2px solid rgba(255,255,255,.5);
+  font-size:calc(10px + 2vmin);
+  text-align: center;
+	padding:.25em .5em .3125em;
+	color: white;
+	border-radius:.25em;
+	background:transparent;
+}
+
+button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+svg{
+  position: inherit;
+  size: auto;
+}
+

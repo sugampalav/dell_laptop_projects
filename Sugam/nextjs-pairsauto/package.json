@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-pairsauto",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "buildex": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "firebase": "^9.9.3",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.3.16",
+    "gsap": "^3.10.4",
+    "latest": "^0.2.0",
+    "locomotive-scroll": "^4.1.4",
+    "next": "12.2.0",
+    "node": "^16.17.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.1.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.2.0"
+  }
+}

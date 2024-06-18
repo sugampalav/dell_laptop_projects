@@ -1,0 +1,47 @@
+// Breakpoints
+$size-xxl: 1920px;
+$size-xl: 1440px;
+$size-l: 1224px;
+$size-m: 1024px;
+$size-s: 800px;
+$size-xs: 480px;
+$size-xxs: 376px;
+
+// Colors
+$pal-bg: #111119;
+$pal-main: #7a4ff4;
+$pal-sec: #b7a0f8;
+$pal-scrollBar: #a498be;
+$pal-scrollBg: #544f5f;
+$pal-error: #fc423f;
+
+$pal-primary : #0d6efd;
+$pal-secondary : #ffcc00;
+
+//Animation Math
+
+$easeIn: cubic-bezier(.8,0,1,1);
+$easeOut: cubic-bezier(.2,0,0,1);
+$easeIn1: cubic-bezier(.4,0,1,1);
+$easeIn2: cubic-bezier(.8,0,1,1);
+$easeIn3: cubic-bezier(1,0,1,1);
+$easeOut1: cubic-bezier(0,0,.6,1);
+$easeOut2: cubic-bezier(0,0,.2,1);
+$easeOut3: cubic-bezier(0,0,0,1);
+$easeInOut1: cubic-bezier(.4,0,.2,1);
+$easeInOut2: cubic-bezier(.4,0,0,1);
+$easeInOut3: cubic-bezier(.6,0,0,1);
+
+
+//ContactUs page variables
+
+$--color-light: white;
+$--color-dark: #212121;
+$--color-signal: #fab700;
+
+$--color-background: $--color-light;
+$--color-text: $--color-dark;
+$--color-accent: $--color-signal;
+
+$--size-bezel: 0.5rem;
+$--size-radius: 4px;
